@@ -3,7 +3,7 @@ function sorteio(){
     const max = Math.floor(document.getElementById("max").value);
     const resultado = Math.floor(Math.random() * (max - min + 1)) + min;
 
-    alert("O número sorteado é: " + resultado);
+    
 
      console.log(min, max);
 }
